@@ -1,3 +1,3 @@
-# gestiion_biblioteca
+# Gestión de bibliotecas
 Este es un párrafo
 ## hola
