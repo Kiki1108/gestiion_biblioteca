@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html lang="es"></html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion de Biblioteca</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Mi Página Interactiva</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    
 
+  <!-- Menú lateral -->
+  <nav class="sidebar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#buscador">Buscador</a></li>
+      <li><a href="#desarrollo">Desarrollo</a></li>
+      <li><a href="#folder">Folder</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <header>
+      <h1>Título de la Página</h1>
+    </header>
+
+    <main>
+      <section id="inicio" class="seccion">Sección de Inicio</section>
+
+      <section id="buscador" class="seccion">
+        <div class="buscador">
+          <label for="buscar">Buscar:</label>
+          <input type="text" id="buscar" placeholder="Escribe aquí...">
+        </div>
+      </section>
+
+      <section id="desarrollo" class="seccion">Sección de Desarrollo</section>
+
+      <section id="folder" class="seccion">Sección de Folder / Contacto</section>
+    </main>
+
+    <footer>
+      <p>Contacto: ejemplo@correo.com</p>
+    </footer>
+  </div>
+
+  <!-- Botones de navegación -->
+  <div class="navegacion">
+    <button id="up">⬆️</button>
+    <button id="down">⬇️</button>
+  </div>
+
+  <!-- Script que controla la navegación -->
+  <script src="script.js"></script>
 </body>
+</html>
+
+
+
